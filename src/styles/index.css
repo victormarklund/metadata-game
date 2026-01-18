@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  width: 100dvw;
+  min-height: 100dvh;
+  background: linear-gradient(
+    45deg,
+    rgba(63, 0, 99, 0.1),
+    rgba(29, 0, 156, 0.1)
+  );
+}
+
+.main-container {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.img-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-height: 30rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 0.5rem 0.75rem rgba(0, 0, 0, 0.25);
+}
